@@ -1,0 +1,219 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jason/UnityProjects/unity-notnullattribute
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50879
+Successfully changed project path to: /Users/jason/UnityProjects/unity-notnullattribute
+/Users/jason/UnityProjects/unity-notnullattribute
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jason/UnityProjects/unity-notnullattribute/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-22 07:21:20.360 Unity[59259:6602030] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-04-22 07:21:20.360 Unity[59259:6602030] Metal devices available: 2
+2022-04-22 07:21:20.360 Unity[59259:6602030] 0: AMD Radeon Pro 5500M (high power)
+2022-04-22 07:21:20.360 Unity[59259:6602030] 1: Intel(R) UHD Graphics 630 (low power)
+2022-04-22 07:21:20.360 Unity[59259:6602030] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56259
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000844 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1439ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (22ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 1.761094 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.041502 ms MarkObjects: 1.509442 ms  DeleteObjects: 0.055906 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Editor/RBPackageExporter.cs
+  artifactKey: Guid(83d87573060fb44fba118749ae2724c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RBPackageExporter.cs using Guid(83d87573060fb44fba118749ae2724c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9c58c6d7d3870ce53a9d35e9cfe5c0') in 0.283059 seconds 
+  Import took 0.285590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.542858 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute
+  artifactKey: Guid(33c938971f86b455eb7959dc4450e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute using Guid(33c938971f86b455eb7959dc4450e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc4641afae79281b5c3c0c22220cd4') in 0.001002 seconds 
+  Import took 0.003153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001507 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/Editor/FindNotNullsOnLaunch.cs
+  artifactKey: Guid(e3b4eeb5378f74d7db3921240b9acc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/Editor/FindNotNullsOnLaunch.cs using Guid(e3b4eeb5378f74d7db3921240b9acc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7a510aac948d07f39b80f556fb9510') in 0.003215 seconds 
+  Import took 0.004761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001239 seconds.
+  path: Assets/RedBlueGames
+  artifactKey: Guid(059f732d5665a45be8fb4407c964ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames using Guid(059f732d5665a45be8fb4407c964ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ff9694f294cfab806cf88d4385c4b0') in 0.001088 seconds 
+  Import took 0.002753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001426 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/ReflectionUtility.cs
+  artifactKey: Guid(2f2953be8c0ee4f5690e4d79e813fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/ReflectionUtility.cs using Guid(2f2953be8c0ee4f5690e4d79e813fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aa0813afad04b434647d2d3f7c21db') in 0.003255 seconds 
+  Import took 0.004827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001588 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/NotNullViolation.cs
+  artifactKey: Guid(efb79cd16cc6e45b7aba71314b756599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/NotNullViolation.cs using Guid(efb79cd16cc6e45b7aba71314b756599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3ca4262ef8d6cc3166a4074a5f0346') in 0.004419 seconds 
+  Import took 0.006149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004177 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/Editor/NotNullAttributeDrawer.cs
+  artifactKey: Guid(427b9929a936844b2a6a8e9610ca400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/Editor/NotNullAttributeDrawer.cs using Guid(427b9929a936844b2a6a8e9610ca400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36789050e42f09ddcf75d8439762c92') in 0.003747 seconds 
+  Import took 0.005864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/Editor/NotNullChecker.cs
+  artifactKey: Guid(d6ec0310056da439f90446c4f335c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/Editor/NotNullChecker.cs using Guid(d6ec0310056da439f90446c4f335c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b739ef2c7b416c726739afeead929be') in 0.023279 seconds 
+  Import took 0.025469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001522 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/Editor/NotNullFinder.cs
+  artifactKey: Guid(8a264805ab7ed46de8706dca24b859af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/Editor/NotNullFinder.cs using Guid(8a264805ab7ed46de8706dca24b859af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbb98c7bb0fb1d7e31a1c9d73f21a6f') in 0.003550 seconds 
+  Import took 0.009649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002107 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/NotNullAttribute.cs
+  artifactKey: Guid(4be98c3c9fab04d15a1b39b7786615aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/NotNullAttribute.cs using Guid(4be98c3c9fab04d15a1b39b7786615aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba9df7c759db0a6c14dcd68cc2ab653') in 0.004843 seconds 
+  Import took 0.007152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/RedBlueGames/NotNullAttribute/Editor
+  artifactKey: Guid(01d9dc121f29740bf8735f6a230f2b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBlueGames/NotNullAttribute/Editor using Guid(01d9dc121f29740bf8735f6a230f2b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5439fc59a5156616952f012193f73b20') in 0.001276 seconds 
+  Import took 0.003723 seconds .
+
